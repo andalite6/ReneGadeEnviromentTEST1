@@ -75,7 +75,6 @@ whylabs-client>=0.6.0
 
 # Environmental Impact Assessment
 codecarbon>=2.3.1
-electricity-maps-client>=0.5.0
 websocket-client>=1.7.0
 
 # Multi-Format File Support
