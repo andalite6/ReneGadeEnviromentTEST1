@@ -2278,8 +2278,7 @@ def render_high_volume_testing():
                 with col3:
                     st.metric("Carbon Intensity", "502 gCO2/kWh")
                 
-                st.info("💡 Suggestion: Running this test during off-peak hours could reduce emissions by up to 35%")
- st.info("💡 Suggestion: Running this test during off-peak hours could reduce emissions by up to 35%")
+          st.info("💡 Suggestion: Running this test during off-peak hours could reduce emissions by up to 35%")
 except Exception as e:
     logger.error(f"Error displaying energy optimization suggestion: {str(e)}")
     st.error("Error displaying energy optimization information")
